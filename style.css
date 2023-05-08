@@ -1,0 +1,76 @@
+body {
+  font-family: 'Style Script', cursive;
+    margin: 50px 50px 0 50px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  
+.main {
+    flex: 1;
+  }
+  
+h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+footer {
+    text-align: right;
+    color: midnightblue; 
+    font-size: 30px;
+  }
+
+.creative{ color: #191970;
+  margin-right: 200px;
+}
+
+.creative2{margin-left: 200px;}
+
+.tile-image {
+  float: left;
+  height: 200px;
+  margin: 30px;
+  box-shadow: 20px 20px rgb(54, 48, 48);
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  padding-bottom: 100px;
+}
+.card-text{
+  padding-top: 10px;
+  
+}
+.card-title{
+  color: black;
+  text-decoration: underline;
+}
+.left{float: left;}
+.right{float: right;}
+
+.logo{height: 20px;
+}
+ @media(max-width:680px){
+  h1{font-size: 2rem;}
+  footer{font-size: 15px;}
+  .creative{ color: #191970;
+    margin-right: 50px;}  
+  .creative2{margin-left:50px;}
+  .tile-image {
+    float: none;
+    height: 150px;
+    margin: 30px;
+    box-shadow: 10px 10px rgb(54, 48, 48);}
+  .card {
+  display: inline;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50px;}  
+  
+
+
+ }
